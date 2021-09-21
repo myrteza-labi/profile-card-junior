@@ -1,3 +1,5 @@
+<!-- revoir la structure react en pensant à un codage en mode "usine" -->
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
