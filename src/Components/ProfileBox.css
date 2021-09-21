@@ -74,15 +74,10 @@
 .networkStats {
     display: flex; 
     flex-direction: row; 
+    justify-content: space-around; 
 }
 
 .profilePicture {
     display: inline-block; 
 }
 
-.networkStats {
-    background-color: var(--main-bg-color); 
-}
-.stat {
-    background-color: var(--main-bg-color);
-}

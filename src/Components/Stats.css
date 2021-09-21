@@ -1,3 +1,14 @@
-.stat,.statNumber, .statName {
-    background-color: var(--main-bg-color);
+.stat {
+    margin: 20px;
+    text-align: center; 
+}
+
+.statNumber {
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 5px; 
+}
+
+.statName {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
 }
