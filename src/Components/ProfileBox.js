@@ -15,9 +15,9 @@ function ProfileBox(props){
                 <p className="profileTown">{props.profileTown}</p>
             </div>
             <section className="networkStats">
-                <Stats/>
-                <Stats/>
-                <Stats/>
+                <Stats statNumber={'80K'} statName={'Followers'}/>
+                <Stats statNumber={'803K'} statName={'Likes'}/>
+                <Stats statNumber={'1.4K'} statName={'Photos'}/>
             </section>
         </div>
     )

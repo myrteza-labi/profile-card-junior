@@ -1,0 +1,19 @@
+.profileBox {
+    display: flex; 
+    flex-direction: column; 
+}
+
+.profileMainInfosBox {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+}
+
+.profilePicture {
+    align-self: center; 
+}
+
+.networkStats {
+    display: flex; 
+    flex-direction: row; 
+}
