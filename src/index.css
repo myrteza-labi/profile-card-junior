@@ -6,6 +6,8 @@
   margin: 0;
   padding: 0; 
   box-sizing: border-box; 
-  background-color: #18a8b2; 
 }
 
+body {
+  background-color: #1aa1ad; 
+}
