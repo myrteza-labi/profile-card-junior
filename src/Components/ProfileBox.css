@@ -1,19 +1,67 @@
 .profileBox {
     display: flex; 
     flex-direction: column; 
+    min-width: 375px; 
+    width: 375px; 
+    border-radius: 20px; 
+    overflow: hidden; 
+    background-color: #fff; 
+}
+
+.bgColorProfile{
+    min-height: 150px; 
+    background-image: url(../images/bg-pattern-card.svg);
 }
 
 .profileMainInfosBox {
     display: flex; 
     flex-direction: column; 
     justify-content: center; 
+    height: 150px;
+    background-color: var(--main-bg-color);
+}
+
+.profileInfos {
+    text-align: center; 
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    background-color: transparent; 
+    margin-bottom: 10px; 
+}
+.profileAge {
+    font-family: 'Roboto', arial; 
+    font-weight: 100; 
+    margin-left: 5px; 
+    background-color: transparent; 
+}
+
+.profileTown {
+    text-align: center;
+    font-size: 14px; 
+    font-family: 'Roboto', Arial; 
+    background-color: transparent; 
 }
 
 .profilePicture {
     align-self: center; 
+    border-radius: 60px; 
+    border: 5px solid #fff; 
+    margin-top: -85px; 
+    margin-bottom: 20px; 
 }
 
 .networkStats {
     display: flex; 
     flex-direction: row; 
+}
+
+.profilePicture {
+    display: inline-block; 
+}
+
+.networkStats {
+    background-color: var(--main-bg-color); 
+}
+.stat {
+    background-color: var(--main-bg-color);
 }

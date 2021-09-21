@@ -1,5 +1,5 @@
 import React from 'react'; 
-import './Stats'; 
+import './Stats.css'; 
 
 function Stats(props){
     return(

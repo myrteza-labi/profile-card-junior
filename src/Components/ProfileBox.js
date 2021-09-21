@@ -5,6 +5,7 @@ import Stats from './Stats';
 function ProfileBox(props){
     return(
         <div className="profileBox">
+            <div className="bgColorProfile"></div>
             <div className="profileMainInfosBox">
                 <img src={props.src} alt={props.alt} className="profilePicture"/>
                 <h2 className="profileInfos">{props.profileName}

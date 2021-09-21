@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       
       <ProfileBox 
-      src={ProfilePicture} alt={'photo de profile'} profileName={'Victor Crest'}
+      src={ProfilePicture} alt={'photo de profile'} profileName={'Victor Crest '}
       profileAge={'26'} profileTown={'London'} followers={'80K'} likes={'803K'}
       photos={'1.4K'} />
 
