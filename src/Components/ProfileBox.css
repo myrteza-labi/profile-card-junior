@@ -1,11 +1,11 @@
 .bgImgTop {
     position: absolute; 
     height: auto; 
-    min-width: 50%;
+    min-width: 1200px;
     width:100%; 
     max-width: 1200px; 
     bottom: -600px;
-    right: -400px; 
+    right: -500px; 
     z-index: -1; 
 }
 
@@ -13,10 +13,10 @@
 .bgImgBottom {
     position: absolute; 
     height: auto; 
-    min-width: 50%;
+    min-width: 1200px;
     max-width: 100%; 
-    top: -300px;
-    left: -400px; 
+    top: -400px;
+    left: -600px; 
     z-index: -1; 
 }
 .profileBox {
