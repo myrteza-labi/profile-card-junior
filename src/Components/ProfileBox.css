@@ -1,3 +1,24 @@
+.bgImgTop {
+    position: absolute; 
+    height: auto; 
+    min-width: 50%;
+    width:100%; 
+    max-width: 1200px; 
+    bottom: -600px;
+    right: -400px; 
+    z-index: -1; 
+}
+
+
+.bgImgBottom {
+    position: absolute; 
+    height: auto; 
+    min-width: 50%;
+    max-width: 100%; 
+    top: -300px;
+    left: -400px; 
+    z-index: -1; 
+}
 .profileBox {
     display: flex; 
     flex-direction: column; 
